@@ -7,7 +7,7 @@ Example:
 import make_catchments
 import folium
 
-basins, branches = make_catchments.generate_catchments('path/to/dem.tif', acc_thresh=5000,so_filter=4)
+basins, branches = make_catchments.generate_catchments('path/to/dem.tif',acc_thresh=5000,so_filter=4)
 ```
 Output: 
 ```
