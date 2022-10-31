@@ -1,6 +1,6 @@
 ## Easy catchment delineation in Python
 
-Wrapper for the awesome [pysheds](https://github.com/mdbartos/pysheds) library for quick nested catchment delineation. Using a DEM as input, the functions provided in this repo will return two ```GeoDataFrames```: one detailing the stream network and another descibing the corresponding catchment for each segment. Major thanks to Matt Bartos for his work on ```pysheds``` to make this possible.
+Wrapper for the awesome [pysheds](https://github.com/mdbartos/pysheds) library for quick nested catchment delineation. Using a DEM as input, the functions provided here will return two ```GeoDataFrames```: one detailing the stream network and another describing the corresponding catchment for each segment. Major thanks to Matt Bartos for his work on ```pysheds``` to make this possible.
 
 Example: 
 ```
