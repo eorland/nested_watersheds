@@ -37,4 +37,5 @@ threes[cols].explore(m=m,color='yellow',tiles='Stamen Terrain')
 folium.LayerControl().add_to(m) 
 m
 ```
-![Sample Output](https://imgur.com/WAqQ2kb)
+
+![sample_output](https://user-images.githubusercontent.com/51799071/199057768-1a167084-cecc-4795-a2c2-7df79637e0db.PNG)
