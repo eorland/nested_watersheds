@@ -39,3 +39,6 @@ m
 ```
 
 ![sample_output](https://user-images.githubusercontent.com/51799071/199057768-1a167084-cecc-4795-a2c2-7df79637e0db.PNG)
+
+## A few other notes
+The sample DEM provided in this repo is at 10m resolution. Function runtime will vary based on DEM size, resolution, and the thresholds used. Expect much longer runtimes if using a large DEM. To make the start up process easier, a `.yml` file is included. Main dependencies are:  `pysheds`,`rasterio`,`geopandas`.  
